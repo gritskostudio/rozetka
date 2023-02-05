@@ -1,0 +1,72 @@
+*, :after, :before { box-sizing: border-box; }
+.button, button { cursor: pointer; }
+button, input[type=submit] { outline: none; }
+
+/*Typography*/
+
+h1 { font-size:20px; font-weight:bold; }
+h2 { font-size:18px; font-weight:bold; }
+h3 { font-size:16px; font-weight:bold; }
+h4 { font-size:15px; font-weight:bold; }
+h5 { font-size:15px; font-weight:bold; }
+h6 { font-size:15px; font-weight:bold; }
+p { font-size:14px; }
+.h1 { font-size:20px; font-weight:bold; }
+.h2 { font-size:18px; font-weight:bold; }
+.h3 { font-size:16px; font-weight:bold; }
+.h4 { font-size:15px; font-weight:bold; }
+.h5 { font-size:15px; font-weight:bold; }
+.h6 { font-size:15px; font-weight:bold; }
+.hl { font-size:24px; font-weight:bold; }
+.hxl { font-size:28px; font-weight:bold; }
+.hxxl { font-size:32px; }
+.subh1 { font-size:17px; }
+.subh2 { font-size:16px; }
+.txtnormal { font-size:14px; }
+.txtsmall { font-size:12px; }
+.txtextrsmall { font-size:11px; }
+
+@media (min-width: 1024px) {
+	h1 { font-size:28px;  }
+	h2 { font-size:24px; }
+	h3 { font-size:20px; }
+	h4 { font-size:18px; }
+	h5 { font-size:17px; }
+	h6 { font-size:16px; }
+	.hl { font-size:32px; }
+	.hxl { font-size:40px; }
+	.hxxl { font-size:48px; }
+	.subh1 { font-size:16px; }
+    .subh2 { font-size:15px; }
+}
+
+.primary-color { color: var(--primary-text); }
+.secondary-color { color: var(--secondary-text); }
+
+	
+	
+/* bnt */
+
+.button { text-decoration:none; border-radius:var(--global-radius); display:flex; }
+
+.button--primary { background:var(--primary-button-bg); }
+.button--secondary { background:var(--secondary-button-bg); }
+.button--text { background: }
+
+
+
+
+
+.button--icon { border-radius:50%; }
+
+
+.button--large { padding:12px; }
+.button--normal { padding:8px; }
+.button--small { padding:4px; }
+
+
+.button--disabled {}
+
+
+a { color:var(--primary-link); text-decoration:none; } 
+a:hover { color:var(--hover-link); text-decoration:underline; } 
