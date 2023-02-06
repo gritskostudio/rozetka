@@ -23,21 +23,37 @@
 
 	--primary-button-bg: #00A046;
 	--primary-button-icon: #FFFFFF;
-	--primary-button-pressed: #00A046;
+	--primary-button-pressed: #50A050;
 	--primary-button-text: #FFFFFF;
 	--primary-button-border: #FFFFFF;
   
   	--secondary-button-bg: rgba(255, 255, 255, 0.9);
-	--secondary-button-icon: #797979;
+	--secondary-button-icon: #00A046;
 	--secondary-button-pressed: rgba(255, 255, 255, 0.9);
-	--secondary-button-text: #797979;  
- 	--primary-button-border: rgba(255, 255, 255, 0.9); 
+	--secondary-button-text: #00A046;  
+ 	--secondary-button-border: #00A046;
+    
+	--plain-button-bg: rgba(255, 255, 255, 0.9);
+	--plain-button-icon: #797979;
+	--plain-button-pressed: rgba(255, 255, 255, 0.9);
+	--plain-button-text: #797979;  
+ 	--plain-button-border: rgba(255, 255, 255, 0.9); 
+  
   
   
 	--primary-text: #221F1F; 
 	--secondary-text: #797979;
 	--alert-text: #797979; /* ??? */
 	
+  
+  
+    /* fonts */
+  --font-family       : 'Rozetka', BlinkMacSystemFont, -apple-system, Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
+  --font-family-bold  : 'Rozetka Bold', BlinkMacSystemFont, -apple-system, Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
+  --common-font-size  : 14px;
+  
+  /* animate */
+  
   
   
   /*
@@ -378,11 +394,4 @@
     --dataviz-supplementary-4: rgb(50,52,54);
  */
  
-  /* fonts */
-  --font-family       : 'Rozetka', BlinkMacSystemFont, -apple-system, Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
-  --font-family-bold  : 'Rozetka Bold', BlinkMacSystemFont, -apple-system, Arial, "Segoe UI", Roboto, Helvetica, sans-serif;
-  --common-font-size  : 14px;
-  
-  /* animate */
-  
 }
