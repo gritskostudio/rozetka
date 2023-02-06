@@ -51,11 +51,12 @@ p { font-size:14px; }
 
 .btn--primary { background:var(--primary-button-bg); color:var(--primary-button-text); }
 .btn--secondary { background:var(--secondary-button-bg); color:var(--secondary-button-text); border:var(--secondary-button-border) 1px solid; }
-.btn--plain { background:var(--plain-button-bg); color:var(--plain-button-text); padding:0!important; }
+.btn--plain { background:none; color:var(--plain-button-text); padding:0!important; }
 
 .btn--primary:hover { background:var(--primary-button-pressed); }
 .btn--secondary:hover { background:var(--secondary-button-pressed); }
-.btn--plain:hover { background:var(--plain-button-pressed); }
+.btn--plain:hover { color:var(--plain-button-pressed); }
+.btn--plain:hover svg { fill:var(--plain-button-pressed); }
 
 .btn--primary svg { fill:var(--primary-button-icon); }
 .btn--secondary svg { fill:var(--secondary-button-icon); }
@@ -70,10 +71,17 @@ p { font-size:14px; }
 .btn--icon-only.btn--normal { padding:0; width:40px; }
 .btn--icon-only.btn--small { padding:0; width:32px; }
 .btn--icon-only.btn--secondary { border:none; }
+.btn--icon-only.btn--plain { background:var(--plain-button-bg); }
 
 
 
 .btn--onmedia {}
+.btn--onmedia.btn--primary { background:var(--primary-button-bg); color:var(--primary-button-text); }
+.btn--onmedia.btn--primary svg { fill:#FFF; }
+
+.btn--onmedia.btn--secondary {  }
+.btn--onmedia.btn--secondary svg { fill:#FFF; }
+
 .btn--onmedia.btn--plain { background:none; }
 .btn--onmedia.btn--plain svg { fill:#FFF; }
 
