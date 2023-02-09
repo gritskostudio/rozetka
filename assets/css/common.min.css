@@ -75,23 +75,6 @@ p { font-size:14px; }
 
 
 
-.btn--onmedia {}
-.btn--onmedia.btn--primary { background:var(--primary-button-bg); color:var(--primary-button-text); }
-.btn--onmedia.btn--primary svg { fill:#FFF; }
-
-.btn--onmedia.btn--secondary {  }
-.btn--onmedia.btn--secondary svg { fill:#FFF; }
-
-.btn--onmedia.btn--plain { background:none; }
-.btn--onmedia.btn--plain svg { fill:#FFF; }
-
-
-
-
-
-
-
-
 /* bdg */
 .bdg {}
 .bdg--primary {}
