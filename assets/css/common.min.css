@@ -11,20 +11,20 @@ h4 { font-size:15px; font-weight:bold; margin-bottom:16px; }
 h5 { font-size:15px; font-weight:bold; margin-bottom:16px; }
 h6 { font-size:15px; font-weight:bold; margin-bottom:16px; }
 p { font-size:14px; margin-bottom:16px; }
-.h1 { font-size:20px; font-weight:bold; margin-bottom:16px; }
-.h2 { font-size:18px; font-weight:bold; margin-bottom:16px; }
-.h3 { font-size:16px; font-weight:bold; margin-bottom:16px; }
-.h4 { font-size:15px; font-weight:bold; margin-bottom:16px; }
-.h5 { font-size:15px; font-weight:bold; margin-bottom:16px; }
-.h6 { font-size:15px; font-weight:bold; margin-bottom:16px; }
-.hl { font-size:24px; font-weight:bold; margin-bottom:16px; }
-.hxl { font-size:28px; font-weight:bold; margin-bottom:16px; }
+.h1 { font-size:20px; font-weight:bold;  }
+.h2 { font-size:18px; font-weight:bold;  }
+.h3 { font-size:16px; font-weight:bold;  }
+.h4 { font-size:15px; font-weight:bold;  }
+.h5 { font-size:15px; font-weight:bold;  }
+.h6 { font-size:15px; font-weight:bold;  }
+.hl { font-size:24px; font-weight:bold;  }
+.hxl { font-size:28px; font-weight:bold;  }
 .hxxl { font-size:32px; margin-bottom:16px; }
-.subh1 { font-size:17px; margin-bottom:16px; }
-.subh2 { font-size:16px; margin-bottom:16px; }
-.txtnormal { font-size:14px; margin-bottom:16px; }
-.txtsmall { font-size:12px; }
-.txtextrsmall { font-size:11px; }
+.sub-h1 { font-size:17px; margin-bottom:16px; }
+.sub-h2 { font-size:16px; margin-bottom:16px; }
+.txt-normal { font-size:14px; margin-bottom:16px; }
+.txt-small { font-size:12px; }
+.txt-extrsmall { font-size:11px; }
 
 @media (min-width: 1024px) {
 	h1 { font-size:28px;  }
@@ -40,9 +40,9 @@ p { font-size:14px; margin-bottom:16px; }
     .subh2 { font-size:15px; }
 }
 
-.primary-color { color: var(--primary-text); }
-.secondary-color { color: var(--secondary-text); }
-
+.txt-primary { color: var(--primary-text); }
+.txt-secondary { color: var(--secondary-text); }
+.txt-light { color: var(--light-text); }
 	
 	
 /* bnt */
@@ -87,3 +87,4 @@ p { font-size:14px; margin-bottom:16px; }
 
 a { color:var(--primary-link); text-decoration:none; } 
 a:hover { color:var(--hover-link); text-decoration:underline; } 
+a:hover svg{ fill:var(--hover-link); } 
