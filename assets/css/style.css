@@ -66,7 +66,7 @@
 
 		
 		
-/* footer */ 
+/* footer 1 */ 
 .footer { background: var(--footer-bg); padding:16px 0; }
 .footer-nav { padding: 16px 0; border-bottom: var(--common-border) 1px solid; gap:calc(var(--global-spacer)*4); }
 @media (min-width: 1024px) { .footer-nav { display: flex; flex-direction: row; } }
